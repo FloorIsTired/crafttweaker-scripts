@@ -13,7 +13,7 @@ val cheese_recipes as IItemStack[IItemStack] = {
 var i = 0;
 for milk_bucket, cheese_wheel in cheese_recipes {
     i++;
-    val cheeseWheelName = cheese_wheel.registryName.namespace + "_compacting_recipe" + "_" + i;
+    val cheeseWheelName = cheese_wheel.registryName.namespace + "_compacting_recipe_" + i;
     <recipetype:create:compacting>.addJsonRecipe(cheeseWheelName, {
         "type" : "create:compacting",
         "heatRequirement": "heated",
