@@ -1,0 +1,1 @@
+craftingTable.remove(<item:wildernature:bounty_board>);
